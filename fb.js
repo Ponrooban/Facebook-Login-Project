@@ -122,7 +122,7 @@ const fnvali=()=>{
         foc=1;
     }
 
-    if(foc=1)
+    if(a.match(emai) && b.match(paswd) && c.match(r_fn) && d.match(r_sn)  )
     {
         swal("Good job!", "You LOGGED in Successfully!", "success");
     }
