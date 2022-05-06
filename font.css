@@ -1,36 +1,36 @@
 @font-face {
     font-family: poppins;
-    src: url(../fonts/Poppins/Poppins-SemiBold.ttf) format("truetype");
+    src: url(./fonts/Poppins/Poppins-SemiBold.ttf) format("truetype");
 }
 
 @font-face {
     font-family: poppinstn;
-    src: url(../fonts/Poppins/Poppins-Thin.ttf) format("truetype");
+    src: url(./fonts/Poppins/Poppins-Thin.ttf) format("truetype");
 }
 
 
 @font-face {
     font-family: poppinslt;
-    src: url(../fonts/Poppins/Poppins-Light.ttf) format("truetype");
+    src: url(./fonts/Poppins/Poppins-Light.ttf) format("truetype");
 }
 
 @font-face {
     font-family: poppinsbk;
-    src: url(../fonts/Poppins/Poppins-Black.ttf) format("truetype");
+    src: url(./fonts/Poppins/Poppins-Black.ttf) format("truetype");
 }
 
 @font-face {
     font-family: poppinsr;
-    src: url(../fonts/Poppins/Poppins-Regular.ttf) format("truetype");
+    src: url(./fonts/Poppins/Poppins-Regular.ttf) format("truetype");
 }
 
 
 @font-face {
     font-family: poppinsmd;
-    src: url(../fonts/Poppins/Poppins-Medium.ttf) format("truetype");
+    src: url(./fonts/Poppins/Poppins-Medium.ttf) format("truetype");
 }
 
 @font-face{
     font-family:fbfont;
-    src:url(../fonts/klavika/klavika-bold.otf);
+    src:url(./fonts/klavika/klavika-bold.otf);
 }
