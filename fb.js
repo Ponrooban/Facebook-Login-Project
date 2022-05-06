@@ -122,7 +122,7 @@ const fnvali=()=>{
         foc=false;
     }
 
-    if(foc=true)
+    if(foc==true)
     {
         swal("Good job!", "You LOGGED in Successfully!", "success");
     }
