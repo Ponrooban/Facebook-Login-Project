@@ -72,31 +72,31 @@ const fnvali=()=>{
     var h=document.getElementById("male-outlined").checked;
     var i=document.getElementById("female-outlined").checked;
     var j=document.getElementById("custom-outlined").checked;
-    var foc=true;
+    var foc=0;
 
     if(!a.match(emai))
     {   
        
         document.getElementsByClassName("botemC")[0].setAttribute("class","botemdup");
-       foc=false;
+       foc=1;
     }
     if(!b.match(paswd))
     {   
        
        document.getElementById("botpwd").setAttribute("id","botpwdd");
-       foc=false;
+       foc=1;
     }
     if(!c.match(r_fn))
     {   
        
        document.getElementById("botfname").setAttribute("id","botfnamedup");
-       foc=false;
+       foc=1;
     }
     if(!d.match(r_sn))
     {   
        
        document.getElementById("botsname").setAttribute("id","botsnamedup");
-       foc=false;
+       foc=1;
        
     }
     if( e1.value=='' && f1.value=='' && g1.value=='')
@@ -104,7 +104,7 @@ const fnvali=()=>{
         document.getElementById("dt1").setAttribute("id","dt1dup");
         document.getElementById("dt2").setAttribute("id","dt2dup");
         document.getElementById("dt3").setAttribute("id","dt3dup");
-        foc=false;
+        foc=1;
     }
 
     if(h==false && i==false && j==false)
@@ -112,17 +112,17 @@ const fnvali=()=>{
         document.getElementById("g1").classList.add("btn", "btn-outline-primary", "gd1","gd11");
         document.getElementById("g2").classList.add("btn", "btn-outline-primary", "gd1","gd22");
         document.getElementById("g3").classList.add("btn", "btn-outline-primary", "gd1","gd33");
-        foc=false;
+        foc=1;
     }
     if(h==true || i==true || j==true)
     {
         document.getElementById("g1").classList.add("btn", "btn-outline-primary", "gd1");
         document.getElementById("g2").classList.add("btn", "btn-outline-primary", "gd2");
         document.getElementById("g3").classList.add("btn", "btn-outline-primary", "gd3");
-        foc=false;
+        foc=1;
     }
 
-    if(foc==true)
+    if(foc==1)
     {
         swal("Good job!", "You LOGGED in Successfully!", "success");
     }
