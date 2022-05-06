@@ -1,0 +1,697 @@
+@import url(font.css);
+
+body{
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    background-color:rgb(240,242,245);
+}
+
+#txt1{
+    margin-top: 180px;
+    margin-left: 70px;
+    font-family: fbfont;
+    font-weight: bold;
+    font-size: 70px;
+    color:rgb(24,119,242);
+}
+#txt2{
+    font-family: poppinsr;
+    margin-left: 70px;
+    margin-top: -20px;
+    font-size: 24px;
+    color: rgb(28,30,33);
+}
+
+.box1{
+    width: 400px;
+    height: 370px;
+    background-color: white;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.180);
+    margin-top: 130px;
+    margin-left: 70px;
+    border-radius: 10px;
+}
+#em{
+    border: 1px solid #DDDFE2;
+    margin: 0px;
+    background-color: transparent;
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 360px;
+    border-radius: 5px;
+    height: 50px;
+    outline: 0px;
+    padding-left: 15px;
+    background-image: none;
+}
+.em1{
+    border: 1px solid #DDDFE2;
+    margin: 0px;
+    background-color: transparent;
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 360px;
+    border-radius: 5px;
+    height: 50px;
+    outline: 0px;
+    padding-left: 15px;
+    background-image: none;
+}
+.emdup{
+    margin: 0px;
+    background-color: transparent;
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 360px;
+    border-radius: 5px;
+    height: 50px;
+    outline: 0px;
+    background-image: url(./pic/exclmation.png);
+    background-repeat: no-repeat;
+    background-size: 20px;
+    border: 1px solid #e22108;
+    background-position-x: 330px;
+    background-position-y: center;
+    padding-left: 15px;
+}
+.emdup1{
+    border: 1px solid #e22108;
+    margin: 0px;
+    background-color: transparent;
+    background-image: url(./pic/exclmation.png);
+    background-repeat: no-repeat;
+    background-size: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 360px;
+    border-radius: 5px;
+    height: 50px;
+    outline: 0px;
+    background-position-x: 330px;
+    background-position-y: center;
+    padding-left: 15px;
+}
+#pwd{
+    border: 1px solid #DDDFE2;
+    margin: 0px;
+    background-color: transparent;
+    margin-left: 20px;
+    margin-top: 10px;
+    width: 360px;
+    border-radius: 5px;
+    height: 50px;
+    padding-left: 15px;
+    background-image: none;
+}
+.pwd1{
+    border: 1px solid #DDDFE2;
+    margin: 0px;
+    background-color: transparent;
+    margin-left: 20px;
+    margin-top: 10px;
+    width: 360px;
+    border-radius: 5px;
+    height: 50px;
+    padding-left: 15px;
+    background-image: none;
+}
+.pwddup{
+    border: 1px solid #e22108;
+    margin: 0px;
+    background-color: transparent;
+    margin-left: 20px;
+    margin-top: 10px;
+    width: 360px;
+    border-radius: 5px;
+    height: 50px;
+    background-position-x: 330px;
+    background-position-y: center;
+    padding-left: 15px;
+    padding-left: 15px;
+    background-image: url(./pic/exclmation.png);
+    background-repeat: no-repeat;
+    background-size: 20px;
+}
+::placeholder{
+    /* padding-left: 15px; */
+    font-family: poppinsr;
+    color: rgb(117, 117, 117);
+}
+.btn1{
+    width: 360px;
+    height: 50px;
+    margin: 18px 20px 0px 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+.btn2{
+    width: 200px;
+    height: 50px;
+    margin: 20px 100px 0px 100px;
+    font-family: sans-serif;
+    font-size: 16px;
+    background-color: rgb(66,183,42);
+    border: 1px solid  rgb(57, 175, 33) ;
+}
+.btn2:hover{
+    background-color: rgb(55, 167, 32);
+    border: 1px solid  rgb(66,183,42) ;
+}
+div a{
+    text-decoration: none;
+}
+#lk{
+    padding-top: 15px;
+    margin-left: 130px;
+    padding-top: 30px;
+}
+div a:hover{
+    text-decoration: underline;
+}
+#line{
+    border-top: 1px solid rgb(218,221,225);
+    width: 360px;
+    margin: 20px 20px 0px 20px;
+}
+#lk2{
+    /*margin-left: 550px; */  
+    margin: auto;
+    margin-top: 20px;
+    padding-left: 680px;
+}
+#lks{
+    display: inline;
+}
+#pwd:focus{
+    border: 1px solid rgb(24,119,242);
+    margin: 0px;
+    outline: 0px;
+    background-color: transparent;
+    margin-left: 20px;
+    margin-top: 10px;
+    width: 360px;
+    border-radius: 5px;
+    height: 50px;
+    padding-left: 15px;
+}
+#flem:focus
+{
+    border: 1px solid rgb(24,119,242);
+    background: none;
+}
+#flpwd:focus
+{
+    border: 1px solid rgb(24,119,242);
+    background: none;
+    outline: 0px;
+}
+#em:focus{
+    border: 1px solid rgb(24,119,242);
+    margin: 0px;
+    outline: 0px;
+    background-color: transparent;
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 360px;
+    border-radius: 5px;
+    height: 50px;
+    padding-left: 15px;
+}
+#em:focus::placeholder{
+    padding: 0px;
+    color: rgba(160, 160, 160, 0.781);
+}
+#pwd:focus::placeholder{
+    padding: 0px;
+    color: rgba(160, 160, 160, 0.781);
+}
+
+#ft1{
+    font-family: fbfont;
+    font-size: 55px;
+    color:rgb(24,119,242) ;
+    margin-top: 35px;
+    text-align: center;
+}
+#box2{
+    width: 400px;
+    height: 300px;
+    background-color: white;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.180);
+    margin-left: 70px;
+    border-radius: 10px;
+    margin: auto;
+}
+b3{
+    display: flex;
+    align-items: space-around;
+}
+.ak{
+   margin-top: 20px;
+   margin-left: 40px;
+}
+.ap{
+   margin-top: 20px;
+   margin-left: 10px;
+}
+.btn3{
+    width: 360px;
+    height: 50px;
+    margin: 18px 20px 10px 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+#tt1{
+    margin: auto;
+    font-size: 18px;
+    padding-top: 20px;
+    padding-left: 120px;
+}
+#overlay {
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(255, 255, 255, 0.733);
+    /* z-index: 2; */
+    opacity: 0;
+  }
+
+  @keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+  }
+
+  @keyframes fadeout {
+    100% { opacity: 1; }
+    0%  { opacity: 0; }
+  }
+
+
+.box3{
+    width: 450px;
+    height: 550px;
+    background-color: white;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.180);
+    border-radius: 10px;
+    margin: 60px auto;
+    position: relative;
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+#t1
+{
+    font-family: poppinsmd;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 15px;
+    padding-top: 10px;
+}
+#t2
+{
+    font-family: poppinsr;
+    font-size: 16px;
+    margin-left: 15px;
+}
+#clsicon
+{
+    width: 24px;
+    float: right;
+    margin-right: 10px;
+    margin-top: 10px;
+    opacity: 0.8;
+    cursor:pointer;
+}
+#botfname
+{
+    border: 1px solid #DDDFE2;
+    margin: 0px;
+    background-color: rgb(245,246,247);
+    margin-left: 15px;
+    padding-top: 0px;
+    width: 200px;
+    border-radius: 5px;
+    height: 40px;
+    outline: 0px;
+    padding-left: 15px;
+}
+#botfnamedup
+{
+    margin: 0px;
+    background-color: rgb(245,246,247);
+    margin-left: 15px;
+    padding-top: 0px;
+    width: 200px;
+    border-radius: 5px;
+    height: 40px;
+    outline: 0px;
+    padding-left: 15px;
+    background-image: url(./pic/exclmation.png);
+    background-repeat: no-repeat;
+    background-size: 20px;
+    border: 1px solid #e22108;
+    background-position-x: 160px;
+    background-position-y: center;
+    padding-left: 15px;
+}
+
+#botfname:focus
+{
+    border: 1px solid rgb(24,119,242);
+    margin: 0px;
+    background-color: rgb(245,246,247);
+    margin-left: 15px;
+    padding-top: 0px;
+    width: 200px;
+    border-radius: 5px;
+    height: 40px;
+    outline: 0px;
+}
+#botsname
+{
+    border: 1px solid #DDDFE2;
+    margin: 0px;
+    background-color: rgb(245,246,247);
+    margin-left: 10px;
+    padding-top: 0px;
+    width: 200px;
+    border-radius: 5px;
+    height: 40px;
+    outline: 0px;
+    padding-left: 15px;
+}
+#botsnamedup
+{
+    margin: 0px;
+    background-color: rgb(245,246,247);
+    margin-left: 10px;
+    padding-top: 0px;
+    width: 200px;
+    border-radius: 5px;
+    height: 40px;
+    outline: 0px;
+    padding-left: 15px;
+    background-image: url(./pic/exclmation.png);
+    background-repeat: no-repeat;
+    background-size: 20px;
+    border: 1px solid #e22108;
+    background-position-x: 165px;
+    background-position-y: center;
+    padding-left: 15px;
+}
+
+#botsname:focus
+{
+    border: 1px solid rgb(24,119,242);
+    margin: 0px;
+    background-color: rgb(245,246,247);
+    margin-left: 10px;
+    padding-top: 0px;
+    width: 200px;
+    border-radius: 5px;
+    height: 40px;
+    outline: 0px;
+}
+#botfname::placeholder
+{
+    margin-top: 0px;
+}
+.botemC{
+    border: 1px solid #DDDFE2;
+    margin: 0px;
+    background-color: rgb(245,246,247);
+    margin-left: 15px;
+    margin-top: 15px;
+    width: 415px;
+    border-radius: 5px;
+    height: 40px;
+    outline: 0px;
+    padding-left: 15px;
+}
+.botemdup{
+    margin: 0px;
+    border: 1px solid #e22108;
+    background-color: rgb(245,246,247);
+    margin-left: 15px;
+    margin-top: 15px;
+    width: 415px;
+    border-radius: 5px;
+    height: 40px;
+    outline: 0px;
+    padding-left: 15px;
+    background-image: url(./pic/exclmation.png);
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position-x: 380px;
+    background-position-y: center;
+    padding-left: 15px;
+}
+#botem:focus{
+    border: 1px solid rgb(24,119,242);
+    margin: 0px;
+    background-color: rgb(245,246,247);
+    margin-left: 15px;
+    margin-top: 15px;
+    width: 415px;
+    border-radius: 5px;
+    height: 40px;
+    outline: 0px;
+}
+.botpwdC{
+    border: 1px solid #DDDFE2;
+    margin: 0px;
+    background-color: rgb(245,246,247);
+    margin-left: 15px;
+    margin-top: 15px;
+    width: 415px;
+    border-radius: 5px;
+    height: 40px;
+    outline: 0px;
+    margin-bottom: 10px;
+    padding-left: 15px;
+}
+#botpwdd{
+    border: 1px solid #DDDFE2;
+    margin: 0px;
+    background-color: rgb(245,246,247);
+    margin-left: 15px;
+    margin-top: 15px;
+    width: 415px;
+    border-radius: 5px;
+    height: 40px;
+    outline: 0px;
+    margin-bottom: 10px;
+    padding-left: 15px;
+    background-image: url(./pic/exclmation.png);
+    background-repeat: no-repeat;
+    background-size: 20px;
+    border: 1px solid #e22108;
+    background-position-x: 380px;
+    background-position-y: center;
+    padding-left: 15px;
+}
+
+#botpwd:focus{
+    border: 1px solid rgb(24,119,242);
+    margin: 0px;
+    background-color: rgb(245,246,247);
+    margin-left: 15px;
+    margin-top: 15px;
+    width: 415px;
+    border-radius: 5px;
+    height: 40px;
+    outline: 0px;
+    margin-bottom: 10px;
+}
+#dtxt
+{
+    margin-left: 15px;
+    margin-top: 10px;
+}
+#gtxt
+{
+    margin-left: 15px;
+    margin-top: 10px;
+}
+.dt1C
+{
+    margin-left: 15px;
+    width: 130px;
+    height: 40px;
+    border: 1px solid #DDDFE2;
+    border-radius: 5px;
+    background-color: rgb(245,246,247);
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+#dt1dup
+{
+    margin-left: 15px;
+    width: 130px;
+    height: 40px;
+    border: 1px solid #e22108;
+    border-radius: 5px;
+    background-color: rgb(245,246,247);
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+#dt1:focus
+{
+    border: 1px solid rgb(24,119,242);
+}
+#dt2:focus
+{
+    border: 1px solid rgb(24,119,242);
+}
+#dt3:focus
+{
+    border: 1px solid rgb(24,119,242);
+}
+.dt2C
+{
+    margin-left: 10px;
+    width: 130px;
+    height: 40px;
+    border: 1px solid #DDDFE2;
+    border-radius: 5px;
+    background-color: rgb(245,246,247);
+    margin-top: 5px;
+}
+#dt2dup
+{
+    margin-left: 10px;
+    width: 130px;
+    height: 40px;
+    border: 1px solid #e22108;
+    border-radius: 5px;
+    background-color: rgb(245,246,247);
+    margin-top: 5px;
+}
+.dt3C
+{
+    margin-left: 10px;
+    width: 130px;
+    height: 40px;
+    border: 1px solid #DDDFE2;
+    border-radius: 5px;
+    background-color: rgb(245,246,247);
+    margin-top: 5px;
+}
+#dt3dup
+{
+    margin-left: 10px;
+    width: 130px;
+    height: 40px;
+    border: 1px solid #e22108;
+    border-radius: 5px;
+    background-color: rgb(245,246,247);
+    margin-top: 5px;
+}
+.gd1
+{
+  font-size: 16px;
+  margin-left: 15px;
+  margin-top: 5px;
+  width: 130px;
+}
+.gd11
+{
+  border: 1px solid #e22108 ;
+  color: #e22108;
+}
+.gd22
+{
+  border: 1px solid #e22108 ;
+  color: #e22108;
+}
+.gd33
+{
+  border: 1px solid #e22108 ;
+  color: #e22108;
+}
+.gd2
+{
+  font-size: 16px;
+  margin-left: 10px;
+  margin-top: 5px;
+  width: 130px;
+}
+.gd3
+{
+  font-size: 16px;
+  margin-left: 10px;
+  margin-top: 5px;
+  width: 130px;
+}
+#ftxt
+{
+    font-size: 12px;
+    text-align: justify;
+    padding: 10px 15px 5px 15px;
+}
+.btn4{
+    width: 200px;
+    height: 40px;
+    margin: 10px 125px 0px 125px;
+    font-family: sans-serif;
+    font-size: 16px;
+    background-color: rgb(66,183,42);
+    border: 1px solid  rgb(57, 175, 33) ;
+    font-family: poppinsr;
+}
+
+#bb1{
+    width: 200px;
+    position:absolute;
+    left: -170px;
+    top: 30px;
+    display: none;
+}
+#bb2{
+    width: 200px;
+    position:absolute;
+    display: none;
+    /* transform: scaleX(-1); */
+    top:20px;
+    left: 410px;
+}
+#bb5{
+    width: 200px;
+    position:absolute;
+    display: none;
+    /* transform: scaleX(-1); */
+    top: 210px;
+    left: 415px;
+    
+}
+#bb6{
+    width: 200px;
+    position:absolute;
+    display: none;
+    /* transform: scaleX(-1); */
+    top: 250px;
+    left: 400px;
+}
+#bb3{
+    width: 300px;
+    position:absolute;
+    /* transform: scaleX(-1); */
+    top: 25px;
+    left: 400px;
+    display: none;
+}
+#bb4{
+    width: 300px;
+    position:absolute;
+    /* transform: scaleX(-1); */
+    top: 90px;
+    left: 400px;
+    display: none;
+}
